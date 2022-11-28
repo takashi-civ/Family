@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*background-image:url('../Family/img/login1.jpg');*/
+  background-image:url('../Family/images/b118.jpg');
+  background-color: #ff8484;
+  background-size: 100%;
+}
+
+main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+p {
+  text-align: center;
+}
+
+.complete {
+  margin-top: 30%;
+  text-align: center;
+}
+
+
+/*ログインヘッダー CSS*/
+.login-header {
+  width:100%;
+  padding:1% 10% 1%;
+  background-color:rgb(228, 224, 137) ;
+  position:fixed;
+  top:0;
+  display:flex;
+  align-items:center;
+}
+
+h1 {
+  margin:0; padding:0;
+  font-size:30px;
+}
+
+a {
+  text-decoration:none;
+  color:#4b4b4b;
+}
+
+/*管理者ログイン css*/
+
+.admin_h2 {
+  text-align: center;
+}
+.form_case {
+
+  text-align: center;
+}
+
+.form_case input{
+  width: 500px;
+  height: 50px;
+  margin-top: 10%;
+  border-radius: 15px;
+}
+
+#login_button {
+  background-color: orange;
+}
+.complete {
+  text-align: center;
+  font-size: 30px;
+}
+
+.login_entrance {
+  margin-top: 5%;
+  text-decoration: underline;
+}
+
+.login_entrance a {
+  font-size: 20px;
+}
+
+
+/*管理者のメインページ CSS*/
+.user_post_list {
+  width: 60%;
+  margin: auto;
+  border: solid;
+  border-radius: 10px;
+  margin-top:5%;
+}
+
+.user_account_flex {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.user_delete {
+  width:70%;
+}
+
+#user_delete_Btn {
+  border-radius: 10px;
+}
+
+.user_delete_Btn {
+  width: 20%;
+  margin-left: auto;
+
+}
+
+.post_list_box {
+  text-align: center;
+}
+.login-footer {
+  width:100%;
+  height: 10%;
+  background-color:rgb(228, 224, 137) ;
+  position:fixed;
+  bottom:0;
+  display:flex;
+}
+
+
+/*ユーザ削除確認画面*/
+.delete_user_confirm_h3 {
+  text-align: center;
+}
+
+.delete_user_confirm_dd {
+  width: 500px;
+  margin: auto;
+  margin-top: 5%;;
+}
+.delete_user_confirm_dd dt {
+  text-align: center;
+  font-size: 30px;
+}
+.delete_user_confirm_dd dd {
+  text-align: left;
+  font-size: 20px;
+}
+
+.delete_or_back {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.delete_or_back a {
+  border:solid 2px;
+  width: 200px;
+  text-align: center;
+  line-height: 6;
+  border-radius: 20px;
+  background-color: azure;
+}
+
+#delete {
+  width: 200px;
+  border-radius: 20px;
+  height: 100px;
+  background-color: #FF6666;
+}

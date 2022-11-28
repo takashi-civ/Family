@@ -1,0 +1,529 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../Family/images/b118.jpg');
+  /*background-image: url('../Family/images/24163426_m.jpg');*/
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main {
+  padding-top: 150px;
+  padding-bottom:150px;
+}
+
+/*Javaのボタンcss*/
+.td-good {
+  /*display: inline-block;*/
+  padding: 0 8px;
+  cursor: pointer;
+}
+
+.td-good:hover {
+  color: #f44336;
+}
+
+.active {
+  color: #f44336;
+}
+
+.td-good .active{
+  color: #f44336;
+}
+
+.td-register {
+  padding:0 8px;
+  cursor: pointer;
+}
+.active2 {
+  color: black;
+}
+.td-register .active2 {
+  color: green;
+}
+/*ヘッダー CSS */
+.main-header {
+  width:100%;
+  padding:1% 10% 1%;
+  background-color:rgb(228, 224, 137) ;
+  position:fixed;
+  top:0;
+  display:flex;
+  align-items:center;
+}
+
+h1 {
+  margin:0; padding:0;
+  font-size:30px;
+}
+
+a {
+  text-decoration:none;
+  color:#4b4b4b;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  margin:0 0 0 30px;
+  font-size:14px;
+}
+
+nav {
+  margin:0 0 0 auto;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width /***/:auto;
+}
+/*main.php CSS*/
+
+.user_account_box {
+  margin-top:10%;
+}
+
+.user_account_view {
+  text-align: center;
+  border: solid 3px #6091d3;
+  width:80%;
+  border-radius: 10px;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  box-shadow: 3px 3px #6091d3;
+}
+
+.user_account_flex {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.user_image_box {
+  width:30%;
+}
+.user_account_detail {
+  width:100%;
+}
+.user_account_detail_Btn {
+  width:20%;
+  margin-left:auto;
+}
+.user_check_link_box {
+}
+input#user_account_Btn {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#friends_delete_Btn {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.paging {
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 50px;
+}
+/*書いた投稿一覧*/
+
+.list_head_h3 {
+  text-align: center;
+}
+.user_post_list {
+  width: 60%;
+  margin: auto;
+  border: solid;
+  border-radius: 10px;
+  margin-top:5%;
+  box-shadow: 3px 3px grey;
+}
+.user_post_detail {
+  width:70%;
+  padding-right: 20px;
+  cursor: hand;
+}
+.user_post_detail_Btn {
+  width: 20%;
+  margin-left: auto;
+}
+.flex {
+  display: flex;
+}
+
+/*フレンドポストインデックス*/
+
+.friend_user_list_box {
+  margin-top:10%;
+}
+.friend_user_list {
+  width: 60%;
+  margin: auto;
+  border: solid;
+  border-radius: 10px;
+  margin-top:5%;
+  padding-right: 20px;
+}
+
+/*フレンドワンポスト CSS*/
+.friend_post_box {
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+.user_info_border {
+  border: solid 2px;
+  width: 50%;
+  margin: auto;
+  border-radius: 19px;
+}
+.post_title {
+  text-align: center;
+}
+.user_info {
+  text-align: -webkit-center;
+}
+
+.user_post_info {
+  border:solid 2px;
+  width:50%;
+  margin:auto;
+  margin-top: 5%
+}
+
+#back_Btn {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: azure;
+}
+
+.edit_back {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+}
+
+.edit_back input {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.edit_back a {
+  width: 100px;
+  height: 50px;
+  border: solid;
+  text-align: center;
+  background-color: blue;
+  line-height: 40px;
+  border-radius: 10px;
+}
+
+.back {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.back a{
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  border: solid 1px;
+  background-color: azure;
+  font-size: 20px;
+  line-height: 5;
+  border-radius: 20px;
+}
+
+#post_edit_Btn input{
+  background-color: red;
+}
+
+.view_back {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+/*フレンドデリート CSS */
+.complete {
+  margin-top: 30%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.complete a {
+  text-decoration: underline;
+}
+
+/*ポストボックス CSS */
+.post_list_box {
+  margin-top:10%;
+}
+
+/*エディットコンファーム*/
+#edit_confirm {
+  text-align: center;
+}
+
+#title {
+  font-size: 20px;
+}
+
+#textarea {
+  font-size:25px;
+}
+
+.post_edit_box {
+  text-align: center;
+}
+
+.post_edit_form dt {
+  margin-top: 100px;
+}
+
+.post_edit_form input {
+  width: 500px;
+  height: 50px;
+}
+.post_imege_preview {
+  width: 200px;
+  margin: auto;
+  height: 200px;
+}
+
+.edit_or_back {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.edit_or_back a {
+  width: 200px;
+  height: 100px;
+  line-height: 6;
+  border-radius: 10px;
+  background-color: azure;
+  text-align: center;
+  border: solid 1px;
+}
+
+.edit_or_back input {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: coral;
+}
+
+#post_delete_Btn input {
+  background-color: green;
+}
+/*クリエイトポスト CSS */
+
+.create_or_back {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.create_or_back input {
+  width: 200px;
+  border-radius: 10px;
+  background-color: #FF6666;
+}
+
+.create_or_back a {
+  border:solid;
+  width: 200px;
+  height: 100px;
+  line-height: 6;
+  border-radius: 10px;
+  background-color: azure;
+  text-align: center;
+  border: solid 1px;
+}
+
+/*デリートコンファーム CSS */
+.delete_confirm_h3 {
+  text-align: center;
+}
+
+.delete_confirm_dd {
+  width: 500px;
+  margin: auto;
+  margin-top: 5%;;
+}
+.delete_confirm_dd dt {
+  text-align: center;
+  font-size: 30px;
+}
+.delete_confirm_dd dd {
+  text-align: left;
+}
+.delete_or_back {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.delete_or_back a {
+  border:solid 2px;
+  width: 200px;
+  text-align: center;
+  line-height: 6;
+  border-radius: 20px;
+  background-color: azure;
+}
+
+#delete {
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #FF6699;
+}
+
+
+/*クリエイトポスト CSS */
+.post_create_box h2 {
+  text-align: center;
+}
+
+.post_create_form dt{
+  margin-top :5%;
+}
+
+.post_create_form label {
+  font-size: 30px;
+}
+
+.post_create_form form {
+  text-align: center;
+}
+
+.post_create_form input {
+  height: 40px;
+  width: 600px;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+#post_image {
+  font-size: 20px;
+}
+
+#create_post_Btn {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.post_create_form textarea {
+  width: 50%;
+  height: 300px;
+  font-size:20px;
+  border-radius: 10px;
+}
+
+.post_image_preview {
+  height:200px;
+  width:200px;
+  margin: auto;
+}
+
+/*クリエイトコンファーム CSS */
+.create_confirm_h3 {
+  text-align:center;
+  font-size: 30px;
+}
+
+.create_confirm_dd {
+  text-align: center;
+  margin-top: 5%;
+  width: 500px;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.create_confirm_dd dt {
+  font-size: 30px;
+}
+
+.create_confirm_dd dd {
+  text-align: left;
+  font-size: 20px;
+}
+
+.create_confirm_dd_area {
+  border: solid 2px gray;
+  border-radius: 10px;
+  width: 700px;
+}
+/*ユーザーチェック CSS */
+.user_check_form {
+  text-align: center;
+}
+
+.form_case form {
+  text-align: center;
+}
+
+.form_case input {
+  margin-top: 5%;
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+/*ユーザーエディット CSS */
+.user_edit_box {
+  text-align: center;
+}
+
+.user_image_preview {
+  width:200px;
+  height: 200px;
+  margin: auto;
+}
+
+.user_edit_form input {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+}
+.user_edit_form #edit {
+  width:200px;
+  height:100px;
+}
+.user_edit_form dt {
+  margin-top: 5%;
+}
+
+#myImage {
+  width: 300px;
+  height: 200px;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*フッター CSS */
+.main-footer {
+  width:100%;
+  height: 10%;
+  background-color:rgb(228, 224, 137) ;
+  position:fixed;
+  bottom:0;
+  display:flex;
+}
