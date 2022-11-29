@@ -1,3 +1,13 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+
+-- 生成日時:2022年 11月29日
+
+-- phpのバージョン 8.1.6
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
 
 CREATE TABLE friends (
   id INT(32) PRIMARY KEY comment 'ID',
